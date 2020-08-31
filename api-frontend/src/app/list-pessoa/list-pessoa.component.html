@@ -1,0 +1,35 @@
+<h3>Lista de Pessoas</h3>
+<br>
+<div class="table-wrapper">
+  <table class="alt">
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Nome</th>
+        <th>Email</th>
+        <th>CPF</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pessoa of pessoas">
+        <td>{{pessoa.id}}</td>
+        <td>{{pessoa.nome}}</td>
+        <td>{{pessoa.email}}</td>
+        <td>{{pessoa.cpf}}</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2"></td>
+        <td></td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
+
+
+
+<br>
+

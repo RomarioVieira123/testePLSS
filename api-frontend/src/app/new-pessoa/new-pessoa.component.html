@@ -1,0 +1,13 @@
+<h3>Cadastro de Pessoa</h3>
+
+<label for="User">NOME: </label>
+<input type="text" [(ngModel)]="pessoa.nome">
+<br>
+<label for="User">EMAIL: </label>
+<input type="text" [(ngModel)]="pessoa.email">
+<br>
+<label for="User">CPF: </label>
+<input type="text" [(ngModel)]="pessoa.cpf">
+<br>
+<button (click)="cadastrarPessoa()" class="button primary">Gravar</button>
+
